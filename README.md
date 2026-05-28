@@ -98,11 +98,11 @@ Restart Home Assistant after any configuration change (but before make sur to ha
 
 A mask file describes the horizon around your zone as a series of **(azimuth, elevation)** pairs. Azimuth is the compass direction (0° = North, 90° = East, 180° = South, 270° = West). Elevation is the angle in degrees above the horizontal plane.
 
-### Method 1 — Azimutis (recommended, on-site measurement)
+### Method 1 — Solar Mask Generator (recommended, on-site measurement)
 
-**Azimutis** is a mobile app (Android/iOS) that uses your phone's sensors to measure the horizon directly on the spot.
+**Solar Mask Generator** is a zero-install web app for surveying the solar horizon mask of any location.
 
-1. Install **Azimutis** from the Play Store or App Store
+1. Go to [**Solar Mask Generator**](https://38decibel.github.io/Solar-Mask-Generator)
 2. Stand at the location you want to measure (pool edge, terrace, etc.)
 3. Slowly pan your phone around 360°, tapping to record horizon points wherever the skyline changes (building edge, treetop, hill)
 4. Export the data as **CSV** — the file is ready to use directly with Solar Mask
