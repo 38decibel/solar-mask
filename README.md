@@ -13,7 +13,7 @@ Unlike cloud-based solar forecasting services, Solar Mask works **entirely offli
 
 The sun's position in the sky is perfectly predictable. What varies from one spot to another is what's blocking it: a neighbour's rooftop at 9 AM, a treeline in the afternoon, a hillside in winter.
 
-Solar Mask lets you define that horizon — using a tool like **Azimutis** on your phone or the **PVGIS** web tool — and turns it into actionable Home Assistant entities. You can then use those entities to automate anything that depends on whether a specific zone is actually in sunlight: a pool pump, garden irrigation, a solar water heater, shutter control, etc.
+Solar Mask lets you define that horizon — using a dedicated webapp **Solar Mask Generator** on your phone or the **PVGIS** web tool — and turns it into actionable Home Assistant entities. You can then use those entities to automate anything that depends on whether a specific zone is actually in sunlight: a pool pump, garden irrigation, a solar water heater, shutter control, etc.
 
 ## Features
 
@@ -22,7 +22,7 @@ Solar Mask lets you define that horizon — using a tool like **Azimutis** on yo
 - 🔄 **Fully offline** — pure Python astronomy, zero external dependencies
 - 🗂️ **Multi-zone support** — configure as many zones as you need (pool, terrace, vegetable garden…)
 - 📡 **6 entities per zone** — binary sensor + 5 sensors, ready to use in automations and dashboards
-- 📁 **Standard mask formats** — CSV (Azimutis) and HOR (PVGIS / PVsyst) are both supported
+- 📁 **Standard mask formats** — CSV (Solar Mask Generator) and HOR (PVGIS / PVsyst) are both supported
 
 ## Entities
 
@@ -124,7 +124,7 @@ The European Commission's **PVGIS** tool provides a satellite-derived horizon pr
 
 Solar Mask accepts two formats:
 
-**CSV format (Azimutis, PVGIS):**
+**CSV format (Solar Mask Generator, PVGIS):**
 ```csv
 azimuth,elevation
 0,3.5
